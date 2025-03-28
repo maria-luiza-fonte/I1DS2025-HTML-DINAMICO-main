@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+hr{
+    width: 99%;
+}
+
+
+#imagem { 
+    width: 150px; 
+    background-color: white; 
+    border: 3px solid black; 
+} 
+
+ 
+#frmCalculadora input, button { 
+    padding: 5px 10px; 
+    margin: 10px 20px; 
+} 
+ 
+#frmCalculadora button {  
+    width: 100px; 
+} 
+ 
+#botoes { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /*cor*/
+  background-color: rgb(233, 164, 201);
+
+  /*alinhamento*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnAtualizar {
+  width: 200px;
+  padding: 5px;
+  margin: 20px 5px;
+  /*margin:20px 15px 10px 5px*/
+  /*margin:20px 10px 5px*/
+}
+th {
+  font-size: 20px;
+  font-weight: bold;
+  color: deeppink;
+  background-color: rgb(255, 255, 255);
+  min-width: 300px;
+}
+
+tr {
+  text-align: center;
+  background-color: rgb(252, 119, 190);
+}
+
+.listra {
+  background-color: rgb(255, 255, 255);
+}
