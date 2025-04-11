@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="pt-BR" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Consumo de API - Boostrap</title>
+  </head>
+  <body>
+    <h1>Exemplo de consumo de API</h1>
+    <p>
+      O objeto desse exemplo é consumir dados de uma API REST e exibir esses
+      dados em uma pagina HTML Dinamica
+    </p>
+
+    <hr />
+    <h2>Dados da API</h2>
+    <p></p>
+    <button id="btnBuscar" onclick="carregarDados()">BuscarDados</button>
+    <div id="div-erro"></div>
+    <div id="div-dados">
+      <table id="dados">
+        <thead>
+          <tr>
+            <th>Codigo</th>
+            <th>Nome da moeda</th>
+          </tr>
+        </thead>
+        <tbody id="itens"></tbody>
+      </table>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
