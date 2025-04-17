@@ -17,7 +17,7 @@ body {
 }
 
 .bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  background: url(..//Design\ sem\ nome.png) no-repeat center/cover;
 
   /*background-color: blue;
          background-image: url(https://placehold.co/1920x1080);
@@ -88,7 +88,7 @@ header {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #e7a200;
+  border-color: #a81818;
 }
 
 .site-header-main {
@@ -108,7 +108,7 @@ header {
 }
 
 #btnzap {
-  background: #e7a200;
+  background: #a81818;
   border-radius: 65px;
   padding: 3px 15px;
   font-size: 20px;
@@ -243,7 +243,7 @@ main {
   text-transform: uppercase;
 
   & h2 {
-    color: #e7a200;
+    color: #a81818;
     font-size: 28px;
     line-height: 80px;
     margin: 0;
@@ -286,8 +286,8 @@ resize: none;
   }
 
   input[type="submit"] {
-    background: #e7a200;
-    border-color: #e7a200;
+    background: #a81818;
+    border-color: #a81818;
     width: 155px;
     border-radius: 50px;
     color: #fff;
@@ -299,7 +299,7 @@ resize: none;
 
 
 footer {
-  background-color: #e7a200;
+  background-color: #a81818;
   margin-top: -145px;
   color: #fff;
   text-align: center;
@@ -337,3 +337,4 @@ footer {
 .esquerda {
   text-align: start;
 }
+
